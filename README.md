@@ -4,9 +4,7 @@ Neural-network quantum state tomography (QST) implemented with JAX, Optax, and N
 
 This repository contains a research project originally developed during my master's studies on neural-network quantum state tomography for many-body quantum systems.
 
-The code reconstructs pure quantum states from measurements in a single computational basis using neural quantum states and stochastic optimization techniques.
-
-This repository implements tomography from measurements in a single computational basis using stochastic optimization and Markov-chain sampling. The implementation was originally developed for reconstructing ground states of one-dimensional Ising-type systems.
+The code reconstructs pure quantum states from measurements in a single computational basis using neural quantum states, stochastic optimization, and Markov-chain sampling. The implementation was originally developed for reconstructing ground states of one-dimensional Ising-type systems.
 
 ## Features
 
@@ -20,8 +18,8 @@ This repository implements tomography from measurements in a single computationa
 ## Installation
 
 ```bash
-git clone https://github.com/edison651/qst_master.git
-cd neural-qst
+git clone https://github.com/edison651/quantum-state-tomography-nqs.git
+cd quantum-state-tomography-nqs
 
 pip install -e .
 ```
@@ -79,9 +77,9 @@ src/neural_qst/
 The ansatz is assumed to return logarithmic amplitudes:
 
 \[
-\log \psi_\\theta(x)
+\log \psi_\theta(x)
 =
-\log \langle x | \psi_\\theta \\rangle
+\log \langle x | \psi_\theta \rangle
 \]
 
 This repository is intended primarily as a research and educational implementation rather than a production tomography framework.
