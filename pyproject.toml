@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-qst"
+version = "0.1.0"
+description = "Neural quantum state tomography with JAX and NetKet"
+authors = [
+    {name = "Edison Santiago Carrera"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "jax",
+    "jaxlib",
+    "netket",
+    "optax",
+    "numpy",
+    "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
