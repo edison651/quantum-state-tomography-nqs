@@ -1,6 +1,10 @@
-# Neural Quantum State Tomography with JAX and NetKet
+# Neural Quantum State Tomography
 
-Neural-network quantum state tomography (QST) for pure quantum states using neural quantum states, JAX, and NetKet.
+Neural-network quantum state tomography (QST) implemented with JAX, Optax, and NetKet.
+
+This repository contains a research project originally developed during my master's studies on neural-network quantum state tomography for many-body quantum systems.
+
+The code reconstructs pure quantum states from measurements in a single computational basis using neural quantum states and stochastic optimization techniques.
 
 This repository implements tomography from measurements in a single computational basis using stochastic optimization and Markov-chain sampling. The implementation was originally developed for reconstructing ground states of one-dimensional Ising-type systems.
 
